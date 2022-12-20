@@ -33,8 +33,8 @@
     checkoutLocation: pep-gitpod-workspace
     upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: grammeri-pepgitpodworks-tzvwtrd9wuy
-    :workspace_url: https://grammeri-pepgitpodworks-tzvwtrd9wuy.ws-us79.gitpod.io
+    :workspace_id: grammeri-pepgitpodworks-32sj9ph5exn
+    :workspace_url: https://grammeri-pepgitpodworks-32sj9ph5exn.ws-us79.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: reacttsxgrammer@gmail.com
     :git_user_name: Grammeri
