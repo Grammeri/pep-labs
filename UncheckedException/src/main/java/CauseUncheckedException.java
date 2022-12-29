@@ -14,6 +14,12 @@ public class CauseUncheckedException {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
+        String name = null;
+        printLength(name);
 
+    }
+
+    private void printLength(String myString) {
+        System.out.println(myString.length());
     }
 }
