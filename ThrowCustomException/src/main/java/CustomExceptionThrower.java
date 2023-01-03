@@ -1,6 +1,3 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.Scanner;
 
 public class CustomExceptionThrower {
 
@@ -11,16 +8,13 @@ public class CustomExceptionThrower {
      *
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      */
-    public void throwCustomException() throws CustomException{
-       try{
-        File file = new File ("MyFile.txt");
-        try (Scanner inputFile = new Scanner(file)) {
-        }
-       } catch (FileNotFoundException e){
-        System.out.println("File not found");
-       }
 
-
+    
+     public void throwCustomException() throws CustomException{
+int age=-2;
+    if (age<0){
+    throw new CustomException ("Age must not be negative");
+} 
+return;
     }
-
 }
