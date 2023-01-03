@@ -8,7 +8,10 @@ public class CustomExceptionThrower {
      *
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      */
-    public void throwCustomException(){
+    public void throwCustomException(String name) throws CustomException{
+       if(name=="Dmitry"){
+        throw new CustomException ("Dmitry must not be permitted");
+       }
 
     }
 
