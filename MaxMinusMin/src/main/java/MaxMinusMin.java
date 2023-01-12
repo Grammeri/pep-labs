@@ -12,7 +12,12 @@ public class MaxMinusMin {
      */
     public int difference(List<Integer> nums){
        List<Integer>list = new ArrayList<>();
-       for(Integer nums : list) 
+   for (int i=1; i < ArrayList.size(); i++){
+    if (nums[i] > maxValue) {
+        maxValue = ArrayList[i];
+    }
+   }
+       
 
 
     }
