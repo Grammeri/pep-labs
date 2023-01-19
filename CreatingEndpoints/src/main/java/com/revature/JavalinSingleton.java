@@ -10,11 +10,20 @@ public class JavalinSingleton {
      * World" in the response.
      * 
      * Note: Please refer to the "CreatingEndpoints.MD" file for more assistance if needed.
+     * @param i
      */
-    public static Javalin getInstance(){
+    public static Javalin getInstance(int i){
         Javalin app = Javalin.create();
         
         //write endpoint here
+        
+        app.start(9000);
+
+        app.get("/get-request", ctx -> {
+            //logic to be executed when this endpoint is hit
+            ctx.result("Hello World");
+        });
+    
 
         return app;
     }
