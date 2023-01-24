@@ -1,5 +1,8 @@
 
 public class Pyramid {
+    public Pyramid() {
+    }
+
     /**
      * Return a string that is a pyramid of size n, made of of asterisks and no spaces.
      *     for example:
@@ -34,7 +37,8 @@ public class Pyramid {
             System.out.println("\n");
         
         }
-        return returnPyramid(n).trim();
+        return returnPyramid(n);
+           
         
     }
 }
