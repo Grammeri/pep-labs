@@ -30,16 +30,16 @@ public class Pyramid {
      * @param n the size of the pyramid.
      * @return a string representation of the pyramid.
      */
-    public String returnPyramid(int b) {
-        for (int i = 0; i < b; i++) {
+    public String returnPyramid(int n) {
+        
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.print("\n");
 
         }
-        return returnPyramid(b).trim();
-        
-
+        return returnPyramid(n).trim();
+           
     }
 }
