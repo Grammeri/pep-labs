@@ -34,10 +34,7 @@ public class Pyramid {
             System.out.println("\n");
         
         }
-        return toString(returnPyramid(n));
-    }
-
-    private String toString(String returnPyramid) {
-        return null;
+        return returnPyramid(n).trim();
+        
     }
 }
