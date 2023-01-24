@@ -1,0 +1,1 @@
+CREATE VIEW firstname_lastname AS SELECT * FROM site_user (firstname_lastname, firstname_lastname);  
