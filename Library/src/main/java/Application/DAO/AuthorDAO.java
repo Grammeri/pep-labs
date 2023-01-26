@@ -28,7 +28,7 @@ public class AuthorDAO {
         List<Author> authors = new ArrayList<>();
         try {
             //Write SQL logic here
-            String sql = "select name from author"; //select name from author
+            String sql = "select * from author"; //select name from author
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet rs = preparedStatement.executeQuery();
             while(rs.next()){
@@ -56,7 +56,7 @@ public class AuthorDAO {
             PreparedStatement preparedStatement = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 
             //write preparedStatement's setString method here.
-            preparedStatement.setString(1, author.getName());
+            preparedStatement.setString(1, author.name);
             
             preparedStatement.executeUpdate();
             ResultSet pkeyResultSet = preparedStatement.getGeneratedKeys();
