@@ -26,7 +26,8 @@ public class AdvancedBooleanLogic {
      * @return true if either b1 or b2 is true, but false if they are both true or both false.
      */
     public boolean returnExclusiveOr(boolean b1, boolean b2){
-        return b1 || b2 == true ? true : (b1 && b2 == true || b1 && b2 == false) ? false : false;
+        //return (b1 || b2 == false) ? false : (b1 && b2 == true) ? false: true;
+        return b1 == true && b2== false ? true : b1==true && b2 == true || b1 == false && b2 == false ? false : true ;
     }
 
     /**
