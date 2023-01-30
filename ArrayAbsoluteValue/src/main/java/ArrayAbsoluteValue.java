@@ -1,25 +1,31 @@
 
 public class ArrayAbsoluteValue {
     /**
-     * Given an array of integers 'nums', produce an array of integers composed of the absolute values of all the
-     * numbers in 'nums'. Absolute value represents the distance from zero, so negative numbers should become positive
+     * Given an array of integers 'nums', produce an array of integers composed of
+     * the absolute values of all the
+     * numbers in 'nums'. Absolute value represents the distance from zero, so
+     * negative numbers should become positive
      * and positive numbers should stay the same.
      *
      * @param nums an array.
      * @return the absolute value array of nums.
      */
-    public int[] getArrayAbs(int[] nums){
-        for (int i=0; i< nums.length; i++){
-        nums[i]= Math.abs(i);
-       }
+    public int[] getArrayAbs(int[] nums) {
+        int a;
+        for (int i = 0; i < nums.length; i++) {
+           if() 
+
+        }
         return nums;
     }
 }
 
-/**int min = -100;
-       int max = 100;
-       nums = new int[201];
-        for (int i=0; i< nums.length; i++){
-        nums[i]= min + (int) (Math.random() * (max - min)+1);
-       }
-        return nums; */
+/**
+ * int min = -100;
+ * int max = 100;
+ * nums = new int[201];
+ * for (int i=0; i< nums.length; i++){
+ * nums[i]= min + (int) (Math.random() * (max - min)+1);
+ * }
+ * return nums;
+ */
