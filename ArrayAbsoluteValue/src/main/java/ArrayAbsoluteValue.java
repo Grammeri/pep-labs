@@ -9,6 +9,17 @@ public class ArrayAbsoluteValue {
      * @return the absolute value array of nums.
      */
     public int[] getArrayAbs(int[] nums){
-        return null;
+        for (int i=0; i< nums.length; i++){
+        nums[i]= Math.abs(i);
+       }
+        return nums;
     }
 }
+
+/**int min = -100;
+       int max = 100;
+       nums = new int[201];
+        for (int i=0; i< nums.length; i++){
+        nums[i]= min + (int) (Math.random() * (max - min)+1);
+       }
+        return nums; */
