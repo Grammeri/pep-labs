@@ -736,6 +736,19 @@
       getFlightsFromCityToCityTest1: 1
       updateFlightTest1: 1
       updateFlightTestNonExistent: 1
+      getBookByIsbnTest: 1
+      addBookVerifyNullOnUnsuccessfulAdd: 1
+      addAuthorTest: 1
+      addBookVerifyNotNullOnSuccessfulAddTest: 1
+      insertAuthorCheckWithGetAllTest: 1
+      insertBookCheckWithGetByIdTest: 1
+      insertBookCheckWithGetAllTest: 1
+      getAllBooksTest: 1
+      getAllAuthorsServiceTest: 1
+      getAllBooksTest1: 1
+      getBooksWithBookCountOverZeroTest: 1
+      getAllAuthorsDAOTest: 1
+      getAllAvailableBooksTest: 1
   ForeignKey:
     :Week: 6
     :Order: 1
