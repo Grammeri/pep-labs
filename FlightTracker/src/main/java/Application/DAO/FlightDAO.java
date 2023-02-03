@@ -189,6 +189,7 @@ public class FlightDAO {
     public List<Flight> getAllFlightsFromCityToCity(String departure_city, String arrival_city){
         Connection connection = ConnectionUtil.getConnection();
         List<Flight> flights = new ArrayList<>();
+
         try {
             //Write SQL logic here
             String sql = "select * from flight where departure_city = ? and arrival_city = ?;";
