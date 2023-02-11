@@ -68,8 +68,7 @@ public class FlightService {
 
         flightDAO.updateFlight(flight_id, flight);
         return this.flightDAO.getFlightById(flight_id);
-    
-        
+          
         
 
     }
